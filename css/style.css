@@ -1,0 +1,211 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --primary-state-color: #404bbf;
+  --primary-dark-color: #2e2f42;
+  --primary-success-color: #31d0aa;
+  --primary-text-color: #434455;
+  --primary-subtl-color: #8e8f99;
+  --primary-accent-color: #e7e9fc;
+  --primary-lidht-color: #f4f4fd;
+  --primary-herobg-color: #2e2f42;
+  --primary-whitebg-color: #ffffff;
+  --primary-modalbg-color: #fcfcfc;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background: var(--primary-whitebg-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+
+/*HEADER*/
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+.header-logo-akcent {
+  color: var(--primary-dark-color);
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-dark-color);
+}
+.header-menu-link:hover {
+  color: var(--primary-state-color);
+}
+.header-menu-link:focus {
+  color: var(--primary-state-color);
+}
+.header-address {
+  font-style: normal;
+}
+
+.header-address-menu-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.header-address-menu-link:hover,
+.header-address-menu-link:focus {
+  color: var(--primary-state-color);
+}
+
+/*SECTION1*/
+
+.solutions {
+  background: var(--primary-dark-color);
+}
+.solutions-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--primary-whitebg-color);
+}
+.solutions-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-whitebg-color);
+  background: var(--primary-brand-color);
+  cursor: pointer;
+}
+.solutions-btn:hover,
+.solutions-btn:focus {
+  background: var(--primary-state-color);
+}
+
+/*SECTION2*/
+
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-dark-color);
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*SECTION3*/
+
+.products-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primary-dark-color);
+}
+
+/*SECTION4*/
+
+.team {
+  background: var(--primary-lidht-color);
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primary-dark-color);
+}
+
+.team-item {
+  background: var(--primary-whitebg-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-dark-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*FOOTER*/
+
+.footer {
+  background: var(--primary-dark-color);
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+.footer-logo-akcent {
+  color: var(--primary-lidht-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-lidht-color);
+}
+
+/*PORTFOLIO*/
+
+.filter {
+}
+.filter-item {
+}
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background: var(--primary-lidht-color);
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--primary-whitebg-color);
+  background: var(--primary-state-color);
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-dark-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
